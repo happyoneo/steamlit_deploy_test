@@ -13,7 +13,7 @@ button1 = st.button("카운터 1: 1부터 시작해 1씩 증가")
 button2 = st.button("카운터 2: 2부터 시작해 2씩 증가")
 button3 = st.button("카운터 3: 3부터 시작해 3씩 증가")
 if button1:
-    st.session_state.counter1 = st.session_state.counter1 + 1
+    st.session_state.counter1 = st.session_state.counter1 + 2
 if button2:
     st.session_state.counter2 = st.session_state.counter2 + 2
 if button3:
